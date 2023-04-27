@@ -1,0 +1,9 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100dvw;
+  height: 100dvh;
+  background-color: rgba(222, 216, 216, 0.378);
+  backdrop-filter: blur(3px);
+}

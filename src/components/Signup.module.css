@@ -1,0 +1,73 @@
+.login_container {
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_image img {
+  width: 100px;
+  margin-bottom: 1.5rem;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  background-color: #ced4da2e;
+  padding: 3rem;
+  min-width: 70%;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.controls label {
+  font-size: 2rem;
+  flex: 2;
+  color: #fff;
+  letter-spacing: 0.8px;
+}
+
+.controls input {
+  border: none;
+  flex: 4;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  border-bottom: 3px solid transparent;
+}
+.controls input:focus {
+  outline: none;
+  border-bottom: 3px solid rgba(0, 255, 0, 0.521);
+  transition: all 0.5s;
+}
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.75rem;
+}
+
+.actions .action_btn {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 0.75rem 2.5rem;
+}
+
+.actions .action_btn:hover {
+  background-color: #adb5bd;
+  transition: all 0.5s;
+}

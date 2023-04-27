@@ -1,0 +1,66 @@
+.todo_container {
+  flex: 1;
+  width: 65%;
+  max-width: 90%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+.todo_list {
+  flex: 1;
+  /* background-color: red; */
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0.5rem;
+  overflow: hidden;
+  overflow-y: scroll;
+  min-height: 75dvh;
+  max-height: 100dvh;
+  margin-bottom: 1.5rem;
+}
+
+.paginate {
+  list-style: none;
+  background-color: #e9ecef;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border-radius: 5px;
+  margin: 0 1.25rem 0 0.5rem;
+}
+.active--page {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.todo--actions {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  background-color: #dee2e6;
+  padding: 1.75rem 2.5rem;
+  margin: 0.5rem 1.25rem 0.5rem 0.5rem;
+  border-radius: 5px;
+}
+
+.action span {
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-right: 0.75rem;
+}
+.action select {
+  padding: 0.5rem 1.75rem;
+  border: none;
+  border-radius: 5px;
+}
+.action select:focus {
+  outline: none;
+}

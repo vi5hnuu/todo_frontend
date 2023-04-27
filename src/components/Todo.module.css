@@ -1,0 +1,56 @@
+.todo {
+  display: grid;
+  grid-template-columns: 6fr auto auto;
+  align-items: center;
+  padding: 1.25rem 0 1.25rem 2.75rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.todo__head {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.btn--remove {
+  font-weight: bold;
+  margin-left: 1.75rem;
+  height: 100%;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: rgba(255, 0, 0, 0.375);
+}
+.btn--remove:hover {
+  background-color: rgba(255, 0, 0, 0.622);
+  transition: all 0.5s;
+}
+
+.todo:hover {
+  transform: scale(1.005);
+  transition: all 0.5s;
+}
+h3 {
+  font-size: 2.5rem;
+}
+.todo__info {
+  display: flex;
+  gap: 1.75rem;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.todo__info span {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.todo__info img {
+  width: 25px;
+}

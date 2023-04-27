@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.image_box {
+  margin: auto;
+  text-align: center;
+}
+.image_box img {
+  width: 75%;
+  height: 75%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: #e9ecef;
+}
